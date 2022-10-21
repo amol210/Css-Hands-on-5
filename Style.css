@@ -1,0 +1,176 @@
+*{
+ margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgb(246, 243, 61);
+}
+.container1{
+display: flex;
+justify-content: center;
+
+}
+@keyframes example{
+    50% {transform: skewX(-30deg);}  
+    100%{transform: skewX(30deg);}
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color:purple;
+    margin: 20px;
+    animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate; 
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 20px;
+    animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 20px;
+    animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    }
+    @keyframes example1{
+        50% {transform: skewX(30deg);}  
+    100%{transform: skewX(-30deg);}
+    }
+    
+    .box4{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(151, 111, 189);
+        margin: 20px;
+        animation-name: example1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+    }
+    .box5{
+        height: 100px;
+        width: 100px;
+        background-color:rgb(151, 111, 189) ;
+        margin: 20px;
+        animation-name: example1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+    }
+    .box6{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(151, 111, 189);
+        margin: 20px;
+        animation-name: example1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+    }
+    .container3{
+        display: flex;
+        justify-content: center;
+        }
+        @keyframes example2{
+            from{ transform: rotate(0deg);}
+          to {transform: rotate(360deg);}
+        }
+        
+        .box7{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(157, 65, 243);
+            margin: 20px;
+            animation-name: example2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+        }
+        .box8{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(157, 65, 243);
+            margin: 20px;
+            animation-name: example2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+        }
+        .box9{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(157, 65, 243);
+            margin: 20px;
+            animation-name: example2;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate; 
+        }
+        .container4{
+            display: flex;
+            justify-content: center;
+            }
+@keyframes example3{
+    from{ height: 50px;}
+          to {height: 100px;}
+}
+@keyframes example4{
+    from{ width: 50px;}
+          to {width: 100px;}
+        }     
+        @keyframes example5{
+            from{ transform: rotate(0deg);}
+          to {transform: rotate(-90deg);}
+        }
+         
+            .box10{
+                height: 100px;
+                width: 100px;
+                background-color: blueviolet;
+                margin: 20px;
+                animation-name: example3;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+            }
+            .box11{
+                height: 100px;
+                width: 100px;
+                background-color: brown;
+                margin: 20px;
+                animation-name: example4;
+                animation-duration: 3s;
+
+animation-iteration-count: infinite;
+animation-direction: alternate;
+            }
+            .box12{
+                height: 100px;
+                width: 100px;
+                background-color: yellowgreen;
+                margin: 20px;
+                animation-name: example5;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+            }
+            h1{
+                text-align: center;
+              }
